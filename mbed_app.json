@@ -1,0 +1,12 @@
+{
+    "macros": [
+        "MBED_CONF_APP_MAIN_STACK_SIZE=768"
+    ],
+    "target_overrides": {
+        "*": {
+             "platform.stdio-baud-rate": 115200,
+             "platform.stdio-convert-newlines": true
+        }
+    }
+}
+
